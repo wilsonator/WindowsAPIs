@@ -34,7 +34,7 @@ var (
 	//LCTF{flag_numero_three}
 
 	//CHANGE THIS BEFORE RUNNING, attackBox IP
-	attackBox_IP = "192.168.127.24 1:8081"
+	attackBox_IP = "127.0.0.1:8081"
 )
 
 func main() {
