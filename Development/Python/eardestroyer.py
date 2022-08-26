@@ -13,7 +13,7 @@ interface = devices.Activate(
   IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
 volume = cast(interface, POINTER(IAudioEndpointVolume))
 
-
+#flag: LCTF{rick_roll}
 
 for i in range(100):
   #open web browser
